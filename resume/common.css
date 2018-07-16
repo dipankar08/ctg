@@ -1,0 +1,129 @@
+*{ margin: 0; padding: 0;box-sizing: border-box;}
+@font-face {
+    font-family: garamond;
+    src: url(garamond-regular.ttf);
+}
+@font-face {
+    font-family: Helvetica;
+    src: url(Helvetica.otf);
+}
+@font-face {
+    font-family: Bariol_Bold;
+    src: url(Bariol_Bold.otf);
+}
+
+
+body {
+    font-family: Bariol_Bold;
+    line-height: 1.25;
+    color: #656565;
+    background: linear-gradient(to bottom, #f8f8f8 0px, #f8f8f8 250px, #fff 250px, #fff 100%);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.resume {
+    width: 794px;
+    margin: 0 auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    position: relative;
+    height: 1122px;
+    border: 1px solid #E5E5E5;
+    border-radius: 3px;
+    background: #FFFFFF;
+}
+.resume_header{
+    width: 100%;
+    text-align: center;
+    height: 160px;
+    background: #2a3642;
+    color: #b4af95
+}
+.resume_content{   
+     width: 100%;
+     position: relative;
+     height: calc(100% - 160px);
+     padding: 40px 15px 15px 15px;
+}
+.name {
+    padding-top: 50px;
+    text-transform: capitalize;
+    font-size: 33px;
+    letter-spacing: 1.1;
+    font-weight: 500;
+}
+.title {    
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    padding-top: 13px;
+    font-size: 14px;
+}
+.left_pane{
+    height: 100%;
+    width: 260px;
+    border-right: 1px solid #b4af95;
+    padding-right: 20px;
+    text-align: right;
+    float: left;
+}
+.left_pane .content{
+    margin-bottom: 70px;
+}
+
+.right_pane {
+    width: calc(100% - 260px);
+    height: 100%;
+    float: right;
+    padding-left: 24px;
+}
+.right_pane .content{
+    margin-bottom: 50px;
+}
+
+
+
+p {
+    font-size: 14px;
+    text-transform: initial;
+}
+.list p{
+    margin-bottom: 10px;
+}
+
+.list_15 p{
+    margin-bottom: 15px;
+}
+.list_20 p{
+    margin-bottom: 20px;
+}
+h2 {
+    font-size: 22px;
+    color: #353535;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+h3{
+    color: #555555;
+    font-size: 16px;
+}
+h5{
+    color: #858585;
+    font-size: 12px;
+}
+i { margin-left: 15px;}
+.sp5{margin-bottom: 5px;}
+.sp10{margin-bottom: 10px;}
+.sp15{margin-bottom: 15px;}
+.sp20{margin-bottom: 20px;}
+.sp25{margin-bottom: 25px;}
+.sp35{margin-bottom: 35px;}
+.tc1{ color: #353535}
+.tc2{ color: #555555}
+.tc3{ color: #858585}
+
+
+.profile_desc {
+    text-align: justify;
+}
+li {font-size: 14px;line-height: 1.5;text-align: justify;}
