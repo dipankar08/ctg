@@ -1,0 +1,182 @@
+<html>
+    <head>
+        <link rel="stylesheet" media="all" href="common.css" data-turbolinks-track="true">
+<style>
+    /* --- page Setup -- */
+    body {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        background-color: #FAFAFA;
+    }
+    * {
+        box-sizing: border-box;
+        -moz-box-sizing: border-box;
+    }
+    .page {
+        width: 210mm;
+        height: 297mm;
+        padding: 20mm;
+        margin: 0mm auto;
+        border: 1px #D3D3D3 solid;
+        border-radius: 5px;
+        background: white;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    }
+    .subpage {
+        padding: 1cm;
+        border: 5px red solid;
+        height: 257mm;
+        outline: 2cm #FFEAEA solid;
+    }
+    .noborder{
+        margin: 0;
+        padding: 0;
+        border: 0;
+    }
+    
+    @page {
+        size: A4;
+        margin: 0;
+    }
+    @media print {
+        html, body {
+            width: 210mm;
+            height: 297mm;        
+        }
+        .page {
+            margin: 0;
+            border: initial;
+            border-radius: initial;
+            width: initial;
+            min-height: initial;
+            box-shadow: initial;
+            background: initial;
+            page-break-after: always;
+            overflow: hidden;
+        }
+    }
+    /* --- End page Setup -- */
+    /* Some Override */
+    .resume {
+        height: auto;
+    }
+    .resume_content{
+        padding: 24px;
+    }
+    h2{
+            font-size: 17px;
+        }
+</style>
+    </head>
+        <body>
+            <div class="book">
+                <div class="page noborder">
+                    <div class="resume">
+                            <div class="resume_header">
+                                <p class="name"> DIPANKAR DUTTA</p>
+                                <p class="title">Software engineer</p>
+                            </div> <!-- end headre-->
+                            <div class="resume_content">
+                                <div class="left_pane">
+                                    <div class="block content list_15">
+                                        <p>+44 888204060 <i class="fas fa-phone"></i></p>
+                                        <p><span>dutta.dipankar08@gmail.com</span><span><i class="fas fa-envelope"></i></span></p>
+                                        <p><span>Collindale, London, UK</span><span><i class="fas fa-map-marker-alt"></i></span></p>
+                                        <p><span>www.linkedin.com/in/dipankar08</span><span><i class="fab fa-linkedin"></i></span></p>
+                                    </div>
+                                    <div class="content list_20">
+                                            <h2>Education</h2>
+                                            <p>
+                                                <span>M.Tech, CSE</span><br>
+                                                <span>IIT Roorkee, INDIA</span><br>
+                                                <span>2009 - 2011</span><br>
+                                            </p>
+                                            <p>
+                                                <span>B.Tech, CSE</span><br>
+                                                <span>HIT, Haldia</span><br>
+                                                <span>2005 - 2009</span><br>
+                                            </p>
+                                    </div>
+                                    <div class="content list">
+                                            <h2>Skill</h2>
+                                            <p>C, C++, Java, Python</p>
+                                            <p>Experinced Android Dev</p>
+                                            <p>Experinced Infra/backend Devloper</p>
+                                            <p>Software architect with applied software patterns</p>
+                                            <p>Git, Hg, Automation</p>
+                                    </div>
+                                    <div class="content">
+                                            <h2>AWARDS</h2>
+                                            <p>
+                                                <span> 99.97% in GATE</span><br>
+                                                <span> GATE, IITs</span><br>
+                                                <span> 2009</span><br>
+                                            </p>
+                                            <p>
+                                                <span> College Topper</span><br>
+                                                <span> HIT, Haldia</span><br>
+                                                <span> 2009</span><br>
+                                            </p>
+                                    </div>
+                                </div> <!-- end left pane -->
+                                <div class="right_pane">
+                                    <div class="content">
+                                            <h2>PROfessional Profile</h2>
+                                            <p class="profile_desc">With 7+ years of strong technical experience in delivering high availability, scalable, enterprise class products. I have shipped multiple successfully products/featurs at Facebook(London infra), Microsoft (Office Android & Excel Mac), Amazon ( Web backends) and Citrix (OpenStack and Cloud).</p>
+                                    </div>
+                                    <div class="content">
+                                        <h2>Experience</h2>
+                                        <div class="list sp25">
+                                            <h3>Facebook Inc • 2017 - Present</h3>
+                                            <h5 class="sp10">Software Engineer • Collobation infra  • London UK</h5>
+                                            <ul class="tc3" style="margin-left: 15px;">
+                                                <li>Shipped Camera control for Messenger within 2 mohths</li>
+                                                <li>Shiped WorkVc for new consumer h/w device by facebook.</li>
+                                                <li>Owning RTC over VC endpoints for android client (workchat) </li>
+                                                <li>Shiped more than 2Lac Significant Line of code in last month.</li>
+                                            </ul>
+                                            
+                                        </div>
+                                        <div class="list sp25">
+                                                <h3>Microsoft Devlopment Center • 2014 - 2017</h3>
+                                                <h5 class="sp10">Software Engineer, Hyderabad India</h5>
+                                                <ul class="tc3" style="margin-left: 15px;">
+                                                    <li>Shipped CCP feature for WXP android platform.</li>
+                                                    <li>Shipped Multiple App Activation(App Boot) in shared infra which eable 3 major feature in app level. </li>
+                                                    <li>Owned Apphost/Fast mode and other ACXE compoent for Office</li>
+                                                    <li>Shiped SDM and import text feature for excel in Mac platform. </li>
+                                                </ul>
+                                        </div>
+                                        <div class="list sp25">
+                                                <h3>Amazon Devlopment Center • 2012 - 2014</h3>
+                                                <h5 class="sp10">Software Engineer, Bangalore, IN</h5>
+                                                <ul class="tc3" style="margin-left: 15px;">
+                                                        <li>Migrated checkout pipeline to Webstore for Javari and BuyVIP to leverage the func like adding Solo/MasterCard credit card and multiple promotions.</li>
+                                                        <li> Achieved more than 50% latency reduction in UK,DE,JP, FR locale.</li>
+                                                        <li> Shiped responsive Design for checkout pipeline and Sign-in pages using media queries to support mobile,tablet and Desktop.</li>
+                                                        <li>OnCall Duty whre i have solved 33+ production tickets and fixed 190+ internal bugs. </li>
+                                                </ul>
+                                        </div>
+                                        <div class="list sp25">
+                                                <h3>Citrix R&D • July,2011 - June, 2012</h3>
+                                                <h5 class="sp10">Software Engineer, Bangalore, IN</h5>
+                                                <ul class="tc3" style="margin-left: 15px;">
+                                                    <li>Contributed to OpenStack/CloudStack initiative by Citrix.</li>
+                                                    <li>Worked on the major service components which is required for setting up a cloud like Nova, Keystone integration,, LBaaS and  Openstack Dashboard Integration</li>
+                                                    <li>Shipped KeyStone Auth Mechanism and API, which allow diffeent user/tanent to interect with service endpoint.</li>
+                                                </ul>
+                                        </div>
+                                    </div>
+                                </div> <!-- end right pane -->
+                            </div>  <!-- end resume content-->
+                        </div> <!-- end Resume-->
+                </div>  <!-- end page-->
+                <!-- Second page -->
+                <div class="page">
+                    <div class="subpage">Page 2/2</div>    
+                </div>
+            </div> <!-- end Book-->
+    </body>
+</html>

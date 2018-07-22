@@ -12,25 +12,27 @@
     src: url(Bariol_Bold.otf);
 }
 
+@media print {
+    body, page {
+        margin: 0;
+        box-shadow: 0;
+    }
+}
 
 body {
     font-family: Bariol_Bold;
     line-height: 1.25;
     color: #656565;
-    background: linear-gradient(to bottom, #f8f8f8 0px, #f8f8f8 250px, #fff 250px, #fff 100%);
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
 .resume {
     width: 794px;
     margin: 0 auto;
-    margin-top: 100px;
-    margin-bottom: 100px;
     position: relative;
-    height: 1122px;
-    border: 1px solid #E5E5E5;
-    border-radius: 3px;
+    height: 1122px; 
     background: #FFFFFF;
+    border: 1px solid #dddddd;
 }
 .resume_header{
     width: 100%;
@@ -73,7 +75,7 @@ body {
 .right_pane {
     width: calc(100% - 260px);
     height: 100%;
-    float: right;
+    margin-left: 260px;
     padding-left: 24px;
 }
 .right_pane .content{
@@ -127,3 +129,16 @@ i { margin-left: 15px;}
     text-align: justify;
 }
 li {font-size: 14px;line-height: 1.5;text-align: justify;}
+
+
+.resume {
+    width: 100%;
+    height: 1402px;
+}
+.header{
+    display: none;
+}
+.resume_content {
+    width: 800px;
+    margin: 0 auto;
+}
